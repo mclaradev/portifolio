@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/img/floraart.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="/main.js" defer></script>
+
+    <title>Portifólio</title>
+
+</head>
+
+<body>
+    <header class="profile container">
+        <div>
+            <input type="checkbox" class="change-theme" id="change-theme">
+<label class="label" for="change-theme">
+    <i class="ri-moon-line"></i>
+    <i class="ri-sun-line"></i>
+    <div class="ball"></div>
+</label>
+        </div>
+       <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="/img/minhafoto.png" alt="uma foto minha">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Maria Clara</h2>
+                <h3 class="profile__profession">Dev Front-End</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/thisisflora/" target="_blank" class="profile__social-link"> <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/maria-clara-florêncio-717006222/" target="_blank" class="profile__social-link"><i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/mclaradev" target="_blank" class="profile__social-link"><i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1
+                        <p class="profile__info-description">Ano de <br> estudo</p>
+                    </h3>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+7
+                        <p class="profile__info-description">projetos e<br> eventos online</p>
+                    </h3>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1
+                        <p class="profile__info-description">trabalho <br> freelancer</p>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a download="" href="/pdf/maria clara florencio da silva santos currículo.pdf" class="button" alt="meu currículo">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=+55839419-6380&text=Hello, more information!" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="naotemnada" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projetos
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+                <!-- projetos -->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="/img/modeljeong.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Landing Page</h3>
+                                <a href="https://jeong-page.netlify.app" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="/img/airpodssite.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">AirPods Store</h3>
+                                <a href="https://airpods-store-website.netlify.app" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="/img/juicesite.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Juice Website</h3>
+                                <a href="https://website-juice.netlify.app" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="/img/stramberrymoon.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Freelancer</span>
+                                <h3 class="projects__title">Landing Page Stramberry Moon</h3>
+                                <a href="https://stramberry-moon.netlify.app" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="/img/todolistsite.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">To Do List Twice Version</h3>
+                                <a href="https://todo-list-twice-theme.netlify.app" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            Créditos do icon da página a <a href="https://instagram.com/cadelinhade2d__?igshid=YmMyMTA2M2Y=">Taissa</a>.
+        </span>
+    </footer>
+</body>
+
+</html>
